@@ -43,7 +43,11 @@ public class AleatorioEmple {
 			System.out.println(" ------------------------------------------");
 		} else 
 			System.out.println(" ---------FICHERO VAC�O --------------------");
-	}// fin verporconsola
+		
+		System.out.println("Lectura de datos finalizada");
+	}
+	
+	// fin verporconsola
 
 	public static void crear() throws IOException {
 		File fichero = new File("AleatorioEmple.dat");
