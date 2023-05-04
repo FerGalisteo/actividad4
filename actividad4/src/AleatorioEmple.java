@@ -65,6 +65,8 @@ public class AleatorioEmple {
 		}
 		file.close();
 		
+		System.out.println("Archivo AleatorioEmple.dat creado satisfactoriamente.");
+		
 	}// fin crear
 
 }// fin class
